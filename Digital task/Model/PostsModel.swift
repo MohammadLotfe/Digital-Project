@@ -2,7 +2,7 @@
 //  PostsModel.swift
 //  Digital task
 //
-//  Created by roya TV on 22/08/2023.
+//  Created by mohmmadlotfe on 22/08/2023.
 //
 
 import Foundation
