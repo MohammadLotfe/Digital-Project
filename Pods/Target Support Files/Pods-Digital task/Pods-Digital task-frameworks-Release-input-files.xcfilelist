@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-Digital task/Pods-Digital task-frameworks.sh
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/SwiftMessages/SwiftMessages.framework

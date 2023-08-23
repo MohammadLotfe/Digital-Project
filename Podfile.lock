@@ -1,0 +1,30 @@
+PODS:
+  - MBProgressHUD (1.2.0)
+  - SwiftMessages (9.0.6):
+    - SwiftMessages/App (= 9.0.6)
+  - SwiftMessages/App (9.0.6)
+
+DEPENDENCIES:
+  - MBProgressHUD
+  - SwiftMessages (from `https://github.com/SwiftKickMobile/SwiftMessages.git`)
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  SwiftMessages:
+    :git: https://github.com/SwiftKickMobile/SwiftMessages.git
+
+CHECKOUT OPTIONS:
+  SwiftMessages:
+    :commit: 4e49214f64f949cc00af225e1f6f4457f6fd62d5
+    :git: https://github.com/SwiftKickMobile/SwiftMessages.git
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
+
+PODFILE CHECKSUM: 3ab23a2153d27e548fca5b96e27cebfba60b9aee
+
+COCOAPODS: 1.11.3

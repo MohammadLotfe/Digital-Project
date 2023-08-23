@@ -8,22 +8,24 @@
 import UIKit
 
 class PostDetailsViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var postTitle: UILabel!
+    @IBOutlet weak var postDescription: UILabel!
+    
+    var PTitle:String = ""
+    var PDescription:String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setupUI()
+    }
+    private func setupUI(){
+        self.title = "Post details"
+        postTitle.text = PTitle
+        postDescription.text = PDescription
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    
+    
 }

@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+let Show = "Show"
+let Hide = "Hide"
+var Success = "Success"
+var Failed = "Failed"

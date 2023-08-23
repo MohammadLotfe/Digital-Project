@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - PostsModelElement
-struct PostsModelElement: Codable {
+struct PostsModel: Codable {
     let userID, id: Int?
     let title, body: String?
 
